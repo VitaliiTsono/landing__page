@@ -28,6 +28,7 @@ a{
     margin: 0 auto;
 }
 .btn {
+    margin-top: 10px;
     padding: 0 40px;
     height: 40px;
     font-size: medium;
@@ -43,12 +44,15 @@ a{
 header {
     position: fixed;
     top: 0;
-    min-height: 50px;
+    min-height: 25px;
+    min-width: 1000px;
+    width: 100%;
     padding: 0px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color:beige;
+    
 }
 @media (max-width: 600px){
     header {
@@ -56,8 +60,8 @@ header {
     }
 }
 .logo {
-    width: 25vw;
-    height: 15vw;
+    width: 10vw;
+    height: 5vw;
 }
 @media (max-width: 650px) {
     .logo {
