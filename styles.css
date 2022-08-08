@@ -28,11 +28,11 @@ a{
     margin: 0 auto;
 }
 .btn {
-    padding: 0 30px;
-    height: 50px;
+    padding: 0 40px;
+    height: 40px;
     font-size: medium;
-    font-weight: 900;
-    border: 5px blueviolet solid;
+    font-weight: 400;
+    border: 5px black solid;
     border-radius: 2px;
     background: transparent;
     cursor: pointer;
@@ -117,7 +117,7 @@ nav>li {
     justify-content: center;
     text-align: center;
     height: 250px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 #hero >h2 {
     margin-bottom: 20px;
@@ -180,13 +180,13 @@ nav>li {
 .features__p{
     font-weight: 100;
 }
-#how-it-works {
+#howitworks {
     margin-top: 50px;
     display: flex;
     justify-content: center;
   }
   
-  #how-it-works > iframe {
+  #howitworks > iframe {
     max-width: 560px;
     width: 100%;
   }
